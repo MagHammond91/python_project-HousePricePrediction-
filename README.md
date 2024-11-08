@@ -62,3 +62,30 @@ https://www.kaggle.com/datasets/harishkumardatalab/housing-price-prediction/data
 
 
 IMPORT LIBRARIES
+```
+## for loading and preprocessing 
+import pandas as pd
+import numpy as np 
+
+## for data visualization 
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+import plotly.graph_objs as go
+
+## splitting dataset and feature engineering 
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction import DictVectorizer
+from sklearn import feature_selection
+from sklearn import model_selection
+from sklearn.metrics import accuracy_score 
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
+from sklearn.naive_bayes import GaussianNB
+from sklearn.ensemble import RandomForestClassifier,GradientBoostingClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestRegressor
+
+import pickle
+```
