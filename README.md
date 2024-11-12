@@ -89,3 +89,62 @@ from sklearn.ensemble import RandomForestRegressor
 
 import pickle
 ```
+
+## THE ANALYSIS
+
+### OBSERVATION 
+
+- There are 545 rows and 13 columns in the dataset.
+
+- The data type of the columns are both interger and object.
+
+- The columns in the datasets are:
+'price', 'area', 'bedrooms', 'bathrooms', 'stories', 'mainroad','guestroom', 'basement', 'hotwaterheating', 'airconditioning','parking', 'prefarea', 'furnishingstatus'
+
+- There are no missing values and duplicates.
+
+- Column names remnamed for easy reading purposes.
+
+
+**Check codes out here : [project_HousePricePredictionModel](/project_HousePricePrediction.ipynb)**
+
+### EXPLORATORY DATA ANALYSIS
+
+- Statistical summary of the numeric coulums
+
+| Statistic | Price       | Area   | Bedrooms | Bathrooms | Stories | Parking |
+|-----------|-------------|--------|----------|-----------|---------|---------|
+| Count     | 545.0       | 545.0  | 545.0    | 545.0     | 545.0   | 545.0   |
+| Mean      | 4,766,729.0 | 5,151.0| 3.0      | 1.0       | 2.0     | 1.0     |
+| Std       | 1,870,440.0 | 2,170.0| 1.0      | 1.0       | 1.0     | 1.0     |
+| Min       | 1,750,000.0 | 1,650.0| 1.0      | 1.0       | 1.0     | 0.0     |
+| 25%       | 3,430,000.0 | 3,600.0| 2.0      | 1.0       | 1.0     | 0.0     |
+| 50%       | 4,340,000.0 | 4,600.0| 3.0      | 1.0       | 2.0     | 0.0     |
+| 75%       | 5,740,000.0 | 6,360.0| 3.0      | 2.0       | 2.0     | 1.0     |
+| Max       | 13,300,000.0| 16,200.0| 6.0     | 4.0       | 4.0     | 3.0     |
+
+*Statistical Summary Table*
+
+- Converting the non-merical columns to numerical values for analysis purposes.
+```
+df['main_road'] = df['main_road'].\
+map( {'no': 0, 'yes': 1 } ).astype(int)
+
+df['guestroom'] = df['guestroom'].\
+map( {'no': 0, 'yes': 1 } ).astype(int)
+
+df['basement'] = df['basement'].\
+map( {'no': 0, 'yes': 1 } ).astype(int)
+
+df['hotwater_heating'] = df['hotwater_heating'].\
+map( {'no': 0, 'yes': 1 } ).astype(int)
+
+df['air_conditioning'] = df['air_conditioning'].\
+map( {'no': 0, 'yes': 1 } ).astype(int)
+
+df['pref_area'] = df['pref_area'].\
+map( {'no': 0, 'yes': 1 } ).astype(int)
+
+df['furnishing_status'] = df['furnishing_status'].\
+map( {'furnished': 2, 'semi-furnished': 1, 'unfurnished': 0 } ).astype(int)
+```
