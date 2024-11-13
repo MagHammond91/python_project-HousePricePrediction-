@@ -441,7 +441,7 @@ fig.update_layout(barmode='group')
 fig.show()
 ```
 ![Bar Graph of Accuracy Test](/images/newplot.png)
-*Bar graph visualizing validation and test accuracy of the six model*
+*Bar graph visualizing validation and test accuracy of the six models*
 
 The results shows that random forest model is the best fit model since it recorded the hightest values in terms of validation and test accuracy. 
 
