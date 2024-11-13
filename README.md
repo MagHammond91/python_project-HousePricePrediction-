@@ -148,3 +148,17 @@ map( {'no': 0, 'yes': 1 } ).astype(int)
 df['furnishing_status'] = df['furnishing_status'].\
 map( {'furnished': 2, 'semi-furnished': 1, 'unfurnished': 0 } ).astype(int)
 ```
+- Performing a correlation on all columns to identify the relationship between the columns.The correlation matrix will be visualised using a heatmap.
+
+```
+corr_matrix = df.corr()
+corr_matrix
+
+# Visualize the correlation matrix using a heatmap
+plt.figure(figsize=(12, 8))
+sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt='.2f')
+plt.title('Correlation Matrix for All Columns')
+plt.show()
+```
+![Correlation Matrix](/)
+*Heatmap visualizing the correlation matrix of all columns*
