@@ -247,6 +247,7 @@ print("Test dataset size:", len(X_test))
 | Training   | 327  |
 | Validation | 109  |
 | Test       | 109  |
+
 *Splitted dataset table *
 
 - Testing different models to find the best fit.
@@ -387,7 +388,7 @@ print("Support Vector Machine Test Accuracy:", svm_accuracy_test)
 | Validation Accuracy    | 1.8349          |
 | Test Accuracy          | 0.9174          |
 
-*Naive Bayes (Gaussian) Accuracy Table*
+*Support Vector Machine Accuracy Table*
 
 ```
 # Train the Gradient Boosting Classifier (GBC) model using the combined training-validation set
