@@ -69,4 +69,4 @@ if submit:
 
 
 
-#To run the web app interface, enter this in the terminal 'streamlit run HousePricePredicionApp.py'
+#To run the web app interface, enter this in the terminal 'streamlit run project_HousePricePredicionApp.py'
