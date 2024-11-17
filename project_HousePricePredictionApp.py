@@ -16,7 +16,7 @@ Want to know how much a property costs? Just fill in the details below, and let 
 """)
 
 # Adding an image for a more appealing introduction
-st.image("https://github.com/MagHammond91/python_project-HousePricePrediction-/blob/main/images/housing.image.jpeg", caption="A beautiful home awaits you!")
+st.image("https://raw.githubusercontent.com/MagHammond91/python_project-HousePricePrediction-/e71fbc65706cb63214f1fadb8abcd71a6555598f/images/housing.image.jpeg", caption="A beautiful home awaits you!")
 
 # Form for user inputs
 with st.form('Myform'):
