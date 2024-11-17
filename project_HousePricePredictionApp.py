@@ -1,9 +1,9 @@
 import streamlit as st
-import pickle
+import joblib
 
 # Load the trained machine learning model
 pickle_in = open('Price_Prediction_model_compressed.pkl','rb')
-model = pickle.load(pickle_in)
+model = joblib.load(pickle_in)
 
 st.title('USA House Price Prediction App')
 
