@@ -88,6 +88,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 
 import pickle
+import joblib
 ```
 
 ## THE ANALYSIS
@@ -486,5 +487,16 @@ result[0]
 ```
 The predicted price of $13,300,000 is exactly as what is in the dataset. This further shows that ramdon forest model is the best fit model. 
 
+4. To deploy the app on Streamlit via GitHub, it is necessary to reduce the original file size to comply with GitHub’s size restrictions. When reducing the file size of an app or dataset to fit within GitHub's size limits, several limitations and trade-offs should be considered:
+- Quality Loss: Compression may degrade data quality or model performance, affecting prediction accuracy.
+- Increased Complexity: Managing smaller files can complicate data handling and preprocessing.
+- Performance Impact: Compression adds overhead, potentially slowing down model loading.
+- Dataset Reduction: Smaller datasets may lack diversity, limiting model generalization.
+- Version Control Issues: Git LFS or external storage solutions may add complexity to your workflow.
+
+
+
+
 **To run and deploy this machine learning model, run this py file [project_HousePricePredictionApp](/project_HousePricePredictionApp.py)**
-**Click here to access the already deployed app**  
+
+**visit the deployed app [here](https://predicthouseprices.streamlit.app/).**
