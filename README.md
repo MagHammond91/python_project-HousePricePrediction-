@@ -499,4 +499,4 @@ The predicted price of $13,300,000 is exactly as what is in the dataset. This fu
 
 **To run and deploy this machine learning model, run this py file [project_HousePricePredictionApp](/project_HousePricePredictionApp.py)**
 
-**visit the deployed app [here](https://predicthouseprices.streamlit.app/).**
+**Visit the deployed app [here](https://predicthouseprices.streamlit.app/).**
