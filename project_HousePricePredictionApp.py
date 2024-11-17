@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Load the trained machine learning model
-pickle_in = open('Price_Prediction_model.h5','rb')
+pickle_in = open('Price_Prediction_model_compressed.pkl','rb')
 model = pickle.load(pickle_in)
 
 st.title('USA House Price Prediction App')
