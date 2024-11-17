@@ -82,7 +82,7 @@ if submit:
     Explore various properties and start your journey to a new home today!  
     """)
     
-    st.image("https://your_image_url.com/another_image.jpg", caption="Your new home could be just around the corner!")
+    st.image("https://raw.githubusercontent.com/MagHammond91/python_project-HousePricePrediction-/main/images/livingroom.jpeg", caption="Your new home could be just around the corner!")
 
 
 
