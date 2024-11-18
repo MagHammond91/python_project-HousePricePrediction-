@@ -23,7 +23,7 @@ with st.form('Myform'):
     col1, col2, col3 = st.columns(3)
     
     # Input fields for the user
-    area = col1.number_input('Area size (in square feet)', min_value=0, step=5)
+    area = col1.number_input('Area size (in square feet)', min_value=1650, step=5)
     bedrooms = col1.selectbox('Select number of Bedrooms', [1, 2, 3, 4, 5, 6])
     bathrooms = col1.selectbox('Select number of Bathrooms', [1, 2, 3, 4])
     stories = col1.selectbox('Select number of Stories', [1, 2, 3, 4])
