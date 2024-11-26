@@ -97,7 +97,7 @@ import joblib
 
 - There are 545 rows and 13 columns in the dataset.
 
-- The data type of the columns are; interger and object.
+- The data type of the columns are; integer and object.
 
 - The columns in the datasets are:
 'price', 'area', 'bedrooms', 'bathrooms', 'stories', 'mainroad','guestroom', 'basement', 'hotwaterheating', 'airconditioning','parking', 'prefarea', 'furnishingstatus'
