@@ -164,6 +164,7 @@ plt.title('Correlation Matrix for All Columns')
 plt.show()
 ```
 ![Correlation Matrix](/images/output1.png)
+
 *Heatmap visualizing the correlation matrix of all columns*
 
 
@@ -188,6 +189,7 @@ plt.show()
 df['price'].skew()
 ```
 ![Histogram Distribution of Price](/images/output2.png)
+
 *Histogram visualizing the distribution of Price*
 
 The distribution of price is positively shewed at 1.2122388370279802 and it needs to be normalized.
@@ -211,6 +213,7 @@ df1 = log_price.skew()
 df1
 ```
 ![Histogram Distribution of Log Price](/images/output3.png)
+
 *Histogram visualizing the distribution of normalized Price*
 
 The distribution of price is now normally disctributed and skewed at 0.14086281102108905
@@ -442,6 +445,7 @@ fig.update_layout(barmode='group')
 fig.show()
 ```
 ![Bar Graph of Accuracy Test](/images/newplot.png)
+
 *Bar graph visualizing validation and test accuracy of the six models*
 
 The results shows that random forest model is the best fit model since it recorded the hightest values in terms of validation and test accuracy. 
