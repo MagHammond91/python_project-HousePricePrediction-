@@ -18,7 +18,7 @@
 
 The aim of this project is to develop a machine learning model that can accurately predict the price of a house based on various features such as area, bathrooms, bedrooms, stories and other relevant factors. The project will involve collecting a dataset of house listings with associated prices and features from online sources or existing databases. Data preprocessing steps will be implemented to prepare the dataset for modeling, including encoding categorical variables, and scaling numerical features.
 
-Next, various machine learning algorithms such as random forest, Naive Base, K-Nearest Neighbor, Gradient Boosting Classifier,      logistic regression, support vector machine  will be trained and evaluated to identify the best-performing model. Feature importance analysis will also be conducted to understand which features have the most significant impact on the predicted house prices.
+Next, various machine learning algorithms such as random forest, Naive Base, K-Nearest Neighbor, Gradient Boosting Classifier, logistic regression, support vector machine  will be trained and evaluated to identify the best-performing model. Feature importance analysis will also be conducted to understand which features have the most significant impact on the predicted house prices.
 
 The developed model will be deployed into a user-friendly interface, allowing users to input house features and obtain a predicted price estimate. Additionally, the project will include documentation detailing the steps involved in data loading, preprocessing, modeling, evaluation, and deployment, making it accessible for others to understand and replicate.
 
@@ -65,17 +65,17 @@ https://www.kaggle.com/datasets/harishkumardatalab/housing-price-prediction/data
 
 IMPORT LIBRARIES
 ```
-## for loading and preprocessing 
+## For loading and preprocessing 
 import pandas as pd
 import numpy as np 
 
-## for data visualization 
+## For data visualization 
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import plotly.graph_objs as go
 
-## splitting dataset and feature engineering 
+## For splitting dataset and feature engineering 
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import feature_selection
@@ -89,6 +89,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 
+## For saving and loading the model
 import pickle
 import joblib
 ```
