@@ -10,6 +10,8 @@
 
 - Using the model to predict house prices
 
+- Creating and deploying the house price prediction app. 
+
 
 
 ## PROJECT DESCRIPTION
