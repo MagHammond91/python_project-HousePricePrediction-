@@ -506,6 +506,6 @@ When reducing the file size of an app or dataset to fit within GitHub's size lim
 
 
 
-**To run and deploy this machine learning model, run this py file [project_HousePricePredictionApp](/project_HousePricePredictionApp.py)**
+**To run and deploy this machine learning model, run this py file [project_HousePricePredictionApp](/project_HousePricePredictionApp.py)** or
 
 **Visit the deployed app [here](https://predicthouseprices.streamlit.app/).**
